@@ -1,31 +1,45 @@
-<div class="form-card">
-      
-    <div class="form-card-2">
-        
-        <form class="form">
-        
-            <h2 class="title-login">Acesso Restrito</h2>
-             
-            <div class="field">
-         
-                <span class="input-icon icon icon-user-1"></span>
-                <input type="text" class="input-field" placeholder="Nome" autocomplete="off">
-            
-            </div>
-            <div class="field">
-                
-                <span class="input-icon icon icon-locked"></span>
-                <input type="password" class="input-field" placeholder="Senha">
-            
-            </div>
-            <div class="box-btn">
-                
-                <button class="btn-login">Entrar</button>
-                <a href="#" class="btn-login">Cadastrar</a>
-            
-            </div>
-                                    
+Nine Labs
+INÍCIO
+VÍDEOS
+REVIEWS
+LIVROS
+PRODUTOS
+STORIES
+
+
+HOME
+CONTEÚDO
+TELA DE LOGIN COM HTML + CSS
+Tela de Login com HTML + CSS
+CONTEÚDODEVDICASTUTORIAL
+11 DE NOVEMBRO DE 2022
+As telas de autenticação são utilizadas pela maioria das aplicações que desenvolvemos sejam elas para Web, mobile ou desktop.
+
+E hoje, eu quero deixar aqui um pequeno tutorial de como se criar uma tela de login de forma simples e objetiva utilizando somente HTML e Css.
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite seu e-mail" />
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit" value="Acessar" class="btn" />
         </form>
-        
     </div>
-</div><!--form-card-->
+    
+</body>
+</html>
